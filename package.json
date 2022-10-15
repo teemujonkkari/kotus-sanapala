@@ -1,0 +1,13 @@
+{
+  "name": "kotus-sanapala",
+  "version": "1.0.0",
+  "description": "Cheat sheet for Finnish words for the game Sanapala",
+  "main": "app.js",
+  "author": "Teemu Jönkkäri <teemu.jonkkari@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "xml2json": "^0.12.0",
+    "yargs": "^17.6.0"
+  }
+}
