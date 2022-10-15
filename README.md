@@ -1,4 +1,4 @@
-# kotus-sanapeli
+# kotus-sanapala
 
 A simple cheat sheet cli app for Finnish words for the game Sanapala.
 
