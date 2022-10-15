@@ -20,11 +20,6 @@ yarn install && chmod +x app.js
 ./app.js --letters=akssi --limit=5
 ```
 
-### Options
-
-- letters: Letters (characters) available
-- limit: Number of letters to use in word
-
 ## Results
 
 ```bash
@@ -35,5 +30,3 @@ yarn install && chmod +x app.js
 │    1    │ 'kissa' │
 └─────────┴─────────┘
 ```
-
-## License MIT
