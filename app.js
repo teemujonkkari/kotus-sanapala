@@ -10,10 +10,8 @@ const {hideBin} = require("yargs/helpers");
 const argv = yargs(hideBin(process.argv)).argv;
 
 const main = async () => {
-  if (!argv?.letters?.length) {
-    console.log("☠️ Give me some letters!");
-  } else if (argv?.limit <= 0) {
-    console.log("☠️ Give me some length (limit) of the word you are looking!");
+  if (!argv?.letters?.length || !argv.limit) {
+    console.log("☠️ Check your arguments --letters and --limit");
   } else {
     // Get all arguments
     const letters = argv?.letters?.toLowerCase()?.split("") || [];
