@@ -25,4 +25,15 @@ yarn install && chmod +x app.js
 - letters: Letters (characters) available
 - limit: Number of letters to use in word
 
+## Results
+
+```bash
+┌─────────┬─────────┐
+│ (index) │ Values  │
+├─────────┼─────────┤
+│    0    │ 'kassi' │
+│    1    │ 'kissa' │
+└─────────┴─────────┘
+```
+
 ## License MIT
