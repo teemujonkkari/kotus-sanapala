@@ -46,8 +46,11 @@ const main = async () => {
     // Remove duplicates
     const uniqueWords = [...new Set(filteredWords)];
 
+    // Sort alphabetically
+    const sortedWords = uniqueWords.sort((a, b) => a.localeCompare(b));
+
     // Print words
-    console.table(uniqueWords);
+    console.table(sortedWords);
   }
 };
 
